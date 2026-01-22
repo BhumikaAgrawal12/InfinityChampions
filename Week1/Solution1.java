@@ -1,4 +1,4 @@
-package Week1;
+
 import java.util.*;
 //Distribute Candies at leetcode
 public class Solution1 {
