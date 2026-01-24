@@ -34,4 +34,9 @@ class SumOfSubarrayMin {
         }
         return (int)ans;
     }
+    public static void main(String[] args) {
+        SumOfSubarrayMin s=new SumOfSubarrayMin();
+        int[] arr={3,1,2,4};
+        System.out.println(s.SumSubarrayMin(arr));
+    }
 }

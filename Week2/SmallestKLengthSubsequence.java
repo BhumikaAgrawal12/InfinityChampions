@@ -1,7 +1,7 @@
 
 //leetcode 2030(Smallest K-Length Subsequence With Occurrences of a Letter)
 import java.util.*;
-public class findAllSubsequences {
+public class SmallestKLengthSubsequence {
     static String best = null;
     public static void findSubsequences(String str,String ans,int indx,int k,char letter,int repitions){
         if (ans.length() > k) return;
